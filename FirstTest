@@ -1,6 +1,6 @@
 //$: sound("[bd, hh]*32 [rim, hh]*8") .sound("Casio") .gain(.25) ._punchcard({width:600})
 //$: sound("bd*4, [- cp]*2, [- hh]*4") .bank("RolandTR909") .gain(0.5) ._punchcard({width:600})
-$: note("[eb1, eb2]!16 [f2, f1]!16 [g2, g1]!16 [f2, f1]!8 [bb2, bb1]!8") .sound("supersaw") .gain(0.75) ._punchcard({width:600})
+$: note("[eb1, eb2]!16 [f2, f1]!16 [g2, g1]!16 [f2, f1]!8 [bb2, bb1]!8") .sound("supersaw") .gain(0.75) .slow(1.75) ._punchcard({width:600})
 //$: sound("bd*4, [- cp]*2, hh*2 hh*4") .bank("RolandTR909") .gain(0.75) ._punchcard({width:600}
-$: note("[c1, c2] - -, - - - [a2, a1]") .sound("Casio") .gain(1.5) .pdecay("1 2") ._punchcard({width:600})
-$: note("e5(2,8) b4(3,8) d5(2,8) c5(3,8)").slow(2) ._punchcard({width:600})
+$: note("[c1, c2] - -, - - - [a2, a1]") .sound("gm_electric_guitar_muted") .gain(1.5) .pdecay("1 2") ._punchcard({width:600})
+$: note("e5(2,8) b4(3,8) d5(2,8) c5(3,8)") .slow(1.75) .sound("gm_electric_guitar_muted") ._punchcard({width:600})
