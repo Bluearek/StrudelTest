@@ -1,4 +1,5 @@
-$: sound("[bd, hh]*32 [rim, hh]*8") .sound("gm_xylophone") .gain(.2) ._punchcard({width:600})
+$: sound("[bd, hh]*32 [rim, hh]*8") .sound("gm_xylophone") .gain(.25) ._punchcard({width:600})
 //$: sound("bd*4, [- cp]*2, [- hh]*4") .bank("RolandTR909") .gain(0.5) ._punchcard({width:600})
 $: note("[eb1, eb2]!16 [f2, f1]!16 [g2, g1]!16 [f2, f1]!8 [bb2, bb1]!8") .sound("supersaw") .gain(0.75) ._punchcard({width:600})
-$: sound("bd*4, [- cp]*2, hh*2 hh*4") .bank("RolandTR909") .gain(0.75) ._punchcard({width:600})
+//$: sound("bd*4, [- cp]*2, hh*2 hh*4") .bank("RolandTR909") .gain(0.75) ._punchcard({width:600}
+$: note("[eb1, eb2] - -, - - - [f2, f1]") .sound("Casio") .gain(0.75) ._punchcard({width:600})
